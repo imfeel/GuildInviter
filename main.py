@@ -2,10 +2,10 @@ import json, requests, random , keyboard, time, os
 os.system("title GuildInviter by Yumix_ =)")
 global nicknames
 nicknames = []
-'''
+
 settings = [
     50, # matches count
-    "DmhkmGH7uojHGXjrxMixR9gBXWLQjkz", #/api dev vimeworld token
+    "Сюды ваш токен", #/api dev vimeworld token
     0.85, # kd /g i (seconds)
     5, #minimum player level
 ] 
@@ -18,7 +18,7 @@ settings = [
     1, # kd /g i (seconds)
     int(input("Введите минимальный уровень игрока: ")), #minimum player level
 ] 
-
+'''
 print("Количество матчей: " + str(settings[0]))
 print("Ключ разработчика: " + settings[1][:-5] + '*'*5)
 print('Задержка при вводе команды "/g i" (в секундах): ' + str(settings[2]))
